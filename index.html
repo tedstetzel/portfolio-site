@@ -2,54 +2,59 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" src="http://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ted Stetzel Homepage</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500" rel="stylesheet" type="text/css">
-
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <div class="row">
-                <div class="col-2 logo">
-                    <img src="images/bodhi-logo.png">
+                <div class="col-md-2 col-sm-3">
+                    <div class="logo">    
+                    <img src="images/bodhi-logo.png" alt="Bodhi Logo">
+                    </div>
                 </div>
-                <div class="col-11">
+                <div class="col-md-11 col-sm-9">
                     <h1>Ted Stetzel</h1>
                     <h4>Front-end developer</h4>
                 </div>
             </div>
         </header>
-
-        <div class="row">
-            <div class="col-12">
-            <img src="images/moutains.jpg">
+        
+        <div class="row main-image">
+            <div class="header-image col-12">
+                <img src="images/moutains.jpg" alt="Moutains">
             </div>
         </div>
-        <div class="row">
-            <h2>Featured Work</h2>
-        </div>
-        <div class="row center-text">
-            <div class="col-4">
-                <img src="images/workstation.jpg">
-                <h3>Multi User Blog</h3>
-                <p><a href="https://github.com/tedstetzel/multi-user-blog">https://github.com/tedstetzel/multi-user-blog</a></p>
+    
+        <section class="featured-work">
+            <div class="row">
+                <h2>Featured Work</h2>
             </div>
-            <div class="col-4 featured-middle">
-                <img src="images/tennis.jpg">
-                 <h3>Tournament Results</h3>
-                <p><a href="https://github.com/tedstetzel/tournament-results">https://github.com/tedstetzel/tournament-results</a></p>
+            <div class="row featured-items">
+                <div class="col-md-4 col-sm-1">
+                    <img src="images/workstation.jpg" alt="Apple Laptop">
+                    <h3>Multi User Blog</h3>
+                    <p><a href="https://github.com/tedstetzel/multi-user-blog">https://github.com/tedstetzel/multi-user-blog</a></p>
+                </div>
+                <div class="col-md-4 col-sm-1 featured-middle">
+                    <img src="images/tennis.jpg" alt="Tennis Court">
+                    <h3>Tournament Results</h3>
+                    <p><a href="https://github.com/tedstetzel/tournament-results">https://github.com/tedstetzel/tournament-results</a></p>
+                </div>
+                <div class="col-md-4 col-sm-1">
+                    <img src="images/san-francisco.jpg" alt="San Francisco Street">
+                    <h3>Neighborhood Map</h3>
+                    <p><a href="https://github.com/tedstetzel/neighborhood-map">https://github.com/tedstetzel/neighborhood-map</a></p>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="images/san-francisco.jpg">
-                 <h3>Neighborhood Map</h3>
-                <p><a href="https://github.com/tedstetzel/neighborhood-map">https://github.com/tedstetzel/neighborhood-map</a></p>
-            </div>
-        </div>
+        </section>
     </div>
 </body>
 
